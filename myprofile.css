@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background: black;
+    padding: 30px;
+}
+
+header h1 {
+    color: white;
+    font-size: 60px;
+    padding: 2px;
+    text-align: center;
+}
+
+nav{
+    padding: 20px;
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav li a{
+    text-decoration: none;
+    margin: 0px 20px;
+    font-size: 35px;
+    color: black ;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+nav li a:hover{
+    color: #888;
+}
+
+.home{
+    background-image: url(/image/pexels-lukas-574071.jpg);
+    padding: 30px;
+    background-position: center;
+    background-size: cover;
+}
+
+.home__content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.home__content h4{
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.home__content h2{
+    font-weight: 300;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.skills{
+    background-image: url(/image/skills_bg1.jpg);
+    padding: 30px;
+    background-position: center;
+    background-size: cover;
+}
+
+.skills h3, .aboutme h3, .contact h3{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+.skills__content, .aboutme__content{
+    background: rgba(255,255,255,0.3);
+    border-radius: 12px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.skills__content img{
+    object-fit: contain;
+    width: 100%;
+    max-width: 700px;
+}
+
+.aboutme{
+    background-image: url(image/aboutus.jpg);
+    padding: 30px;
+    background-position: center;
+    background-size: cover;
+}
+
+.aboutme__content {
+    color: #fff;
+    padding-bottom: 20px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.aboutme__content p{
+    line-height: 25px;
+    margin: 10px;
+}
+
+.contact {
+    background-image: url(image/pexels-christina-morillo-1181298.jpg);
+    padding: 30px;
+    background-position: center;
+    background-size: cover;
+}
+
+.contact__form {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact__form input {
+    border: 1px solid #dfdfdf;
+    padding: 8px;
+    width: 50%;
+    border-radius: 3px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.contact__form button {
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+}
+
+.contact__form button:hover {
+    color: #888;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background: #111;
+    color: #fff;
+    padding: 20px;
+}
