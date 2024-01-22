@@ -77,7 +77,10 @@ nav li a:hover{
     background-size: cover;
 }
 
-.skills h3, .aboutme h3, .contact h3{
+.skills h3, 
+.aboutme h3, 
+.contact h3
+{
     color: #fff;
     text-align: center;
     margin-bottom: 20px;
@@ -85,7 +88,9 @@ nav li a:hover{
     text-transform: uppercase;
 }
 
-.skills__content, .aboutme__content{
+.skills__content, 
+.aboutme__content
+{
     background: rgba(255,255,255,0.3);
     border-radius: 12px;
     padding-top: 20px;
