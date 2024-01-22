@@ -71,7 +71,7 @@ nav li a:hover{
 }
 
 .skills{
-    background-image: url(/image/skills_bg1.jpg);
+    background-image: url(image/skills_bg1.jpg);
     padding: 30px;
     background-position: center;
     background-size: cover;
